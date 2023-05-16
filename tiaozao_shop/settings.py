@@ -75,8 +75,8 @@ DATABASES = {
         'NAME': 'ershoushpping',
         'USER': 'root',
         'PASSWORD': 'root',
-        'HOST': '101.43.16.92',
-        'PORT': '3307',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
         'CHARSET': 'UTF8',
     }
  }
