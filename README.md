@@ -1,37 +1,45 @@
 # 基于Django校园二手交易跳蚤市场设计
 
-#### 介绍
-Python基于Django校园二手交易跳蚤市场设计毕业源码案例设计
-
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+## 介绍
+###  可以使用学习和毕设项目 +Vx 17708330051
+###  可帮忙做毕设之类的系统，可以进行二次修改需求等！
+###  给个Star星吧！以此鼓励、谢谢支持呀！！
+###  需要数据库请加我 +Vx 17708330051
 
 
-#### 特技
+##项目说明
+- 商品浏览：商品的图片，售价，种类，简介以及库存等信息。
+- 商品评论：用户在购买了商品后才会出现商品评论的文本框。
+- 全文检索：支持对商品种类以及商品名称，简介的检索。
+- 登录注册：用户的登录与注册，重置密码，密码发送到注册邮箱。
+- 跳蚤使用协议：协议签属才能使用。
+- 用户中心：支持用户个人信息，收货地址，修改密码，发布商品，修改个人信息，实名认证，等信息的更新，商品加入购物车，订单生成。
+- 消息中心：支持用户回复商家信息。
+- 卖家中心：在商品详细信息中通过联系卖家或则在评论区通过用户头像进入。
+- 商品下单：在支付接口和企业资质的支持下可完成商品的下单功能，按照原子事务处理，下单异常则终止此次下单过程。
+- 后台管理：支持后台管理功能，商品及用户信息的增加，更新与删除，可自定制样式与功能，日志，以及权限的管理和分配。
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
+## 安装：
+
+### 依赖包安装
+
+下载文件进入项目目录之后，使用pip安装依赖包
+
+<code>pip install -Ur requirements.txt</code>
+安装 MySQLdb
+#mysqlclient==2.0
+
+### 数据库配置
+
+数据库默认使用<code>Django</code>项目生成时自动创建的小型数据库<code>sqlite</code>
+
+也可自行配置连接使用MySQL
+
+
+终端下执行:
+
+<code>./python manage.py runserver</code>
+
+浏览器打开: <code>http://127.0.0.1</code> 即可进入普通用户入口
+
