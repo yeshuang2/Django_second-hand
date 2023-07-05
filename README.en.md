@@ -6,16 +6,6 @@ Python基于Django校园二手交易跳蚤市场设计毕业源码案例设计
 #### Software Architecture
 Software architecture description
 
-#### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
 3.  xxxx
 
 #### Contribution
