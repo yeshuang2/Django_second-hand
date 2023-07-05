@@ -1,5 +1,0 @@
-Django==2.0.7
-django-tinymce==2.7.0
-Pillow==8.0.0
-#需要于python版本一致匹配
-pytz==2018.7
