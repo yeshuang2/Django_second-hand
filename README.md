@@ -14,12 +14,11 @@
 - 后台管理：支持后台管理功能，商品及用户信息的增加，更新与删除，可自定制样式与功能，日志，以及权限的管理和分配。
  测试
 ## 效果图
+![微信图片_20230516143022](https://github.com/yeshuang2/Django_second-hand/assets/65081283/2eb027b5-b95e-4c0d-a411-f770599093d0)
 
-![输入图片说明](%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230516143026.jpg)
 
-![输入图片说明](%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230516143022.jpg)
+![微信图片_20230516143026](https://github.com/yeshuang2/Django_second-hand/assets/65081283/1786ee69-8949-4feb-950d-329f6adde39e)
 
-![输入图片说明](%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230516143016.jpg)
 
 ## 安装：
 
